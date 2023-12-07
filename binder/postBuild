@@ -8,10 +8,4 @@ cmake -S . -B build
 
 cmake --build build
 
-cd build
-
-make install
-
-cd ../..
-
-rm -rf flecs
+cd ..
