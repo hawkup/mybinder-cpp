@@ -11,6 +11,6 @@ cmake --build build
 cp $HOME/flecs/build/libflecs_static.a /srv/conda/envs/notebook/lib/libflecs_static.a
 cp $HOME/flecs/build/libflecs.so /srv/conda/envs/notebook/lib/libflecs.so
 
-cp $HOME/flecs/src/flecs.h /srv/conda/envs/notebook/include/flecs.h
+cp $HOME/flecs/flecs.h /srv/conda/envs/notebook/include/flecs.h
 
 cd ..
