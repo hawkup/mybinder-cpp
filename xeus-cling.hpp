@@ -1,2 +1,1 @@
-#pragma cling load("./flecs/build/libflecs_static.a")
-#pragma cling load("./flecs/build/libflecs.dylib")
+#pragma cling load("/srv/conda/envs/notebook/lib/libflecs.so")
