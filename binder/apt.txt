@@ -1,6 +1,2 @@
 python3-pip
-curl
-wget
-zip
-unzip
-tar
+cmake

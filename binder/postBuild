@@ -1,1 +1,17 @@
 #!/bin/bash
+
+git clone https://github.com/SanderMertens/flecs.git
+
+cd flecs
+
+cmake -S . -B build
+
+cmake --build build
+
+cd build
+
+make install
+
+cd ../..
+
+rm -rf flecs
