@@ -1,1 +1,5 @@
 python3-pip
+curl
+zip
+unzip
+tar
