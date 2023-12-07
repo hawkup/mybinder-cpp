@@ -1,14 +1,10 @@
 #!/bin/bash
 set -e
 
-# Install vcpkg
-git clone https://github.com/microsoft/vcpkg.git
-cd vcpkg
-./bootstrap-vcpkg.sh
-./vcpkg integrate install
-
-# Install C++ libraries using vcpkg
-./vcpkg install fmt
+# Download fmt library
+mkdir -p fmt
+wget -O fmt/fmt.zip https://github.com/fmtlib/fmt/releases/download/8.1.0/fmt-8.1.0.zip
+unzip fmt/fmt.zip -d fmt
 
 # Move back to the root directory
 cd ..
